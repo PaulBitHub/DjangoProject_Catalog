@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "Homework21.1"
-version = "0.1.0"
+name = "Catalog_DjangoProject"
+version = "0.2.0"
 description = ""
 authors = ["Paul <p.bitiakov.official@gmail.com>"]
 readme = "README.md"
@@ -8,11 +8,13 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 django = "^5.1"
-psycopg2 = "^2.9.9"
+psycopg2 = "^2.9.10"
 binary = "^1.0.0"
 black = "^24.8.0"
-pillow = "^10.4.0"
-ipython = "^8.27.0"
+pillow = "^11.4.0"
+ipython = "^8.29.0"
+django-phonenumber-field = {extras = ["phonenumbers"], version = "^8.0.0"}
+redis = "^5.1.1"
 
 
 [build-system]
